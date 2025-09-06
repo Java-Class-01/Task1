@@ -9,5 +9,13 @@ public class MusicLayout {
         JFrame.setDefaultLookAndFeelDecorated(true);
         MusicLayoutFrame.setLayout(new BorderLayout());
         JLabel northLabel=new JLabel("My Music Genre");
+        JButton southButton=new JButton("Rap Music");
+        JButton westButton=new JButton("Gospel Music");
+        JButton eastButton=new JButton("Ballads Music");
+
+        MusicLayoutFrame.add(northLabel,BorderLayout.NORTH);
+        MusicLayoutFrame.add(southButton,BorderLayout.SOUTH);
+        MusicLayoutFrame.add(westButton,BorderLayout.WEST);
+        MusicLayoutFrame.add(eastButton,BorderLayout.EAST);
     }
 }
