@@ -8,5 +8,6 @@ public class MusicLayout {
         JFrame MusicLayoutFrame=new JFrame("Music PlayList");
         JFrame.setDefaultLookAndFeelDecorated(true);
         MusicLayoutFrame.setLayout(new BorderLayout());
+        JLabel northLabel=new JLabel("My Music Genre");
     }
 }
