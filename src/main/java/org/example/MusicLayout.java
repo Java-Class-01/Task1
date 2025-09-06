@@ -18,7 +18,7 @@ public class MusicLayout {
         MusicLayoutFrame.add(westButton,BorderLayout.WEST);
         MusicLayoutFrame.add(eastButton,BorderLayout.EAST);
 
-        MusicLayoutFrame.setSize(750,750);
+        MusicLayoutFrame.setSize(750,800);
 
     }
 }
