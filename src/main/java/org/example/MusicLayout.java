@@ -17,13 +17,18 @@ public class MusicLayout {
         JButton westButton=new JButton("Gospel Music");
         JButton eastButton=new JButton("Ballads Music");
 
+
+
         MusicLayoutFrame.add(northButton,BorderLayout.NORTH);
         MusicLayoutFrame.add(southButton,BorderLayout.SOUTH);
         MusicLayoutFrame.add(westButton,BorderLayout.WEST);
         MusicLayoutFrame.add(eastButton,BorderLayout.EAST);
 
-        MusicLayoutFrame.setSize(750,800);
-        MusicLayoutFrame.setVisible(true);
 
+        MusicLayoutFrame.setSize(750,800);
+
+        if (!GraphicsEnvironment.isHeadless()) {
+            MusicLayoutFrame.setVisible(true);
+        }
     }
 }
