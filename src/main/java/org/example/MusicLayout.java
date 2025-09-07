@@ -14,15 +14,13 @@ public class MusicLayout {
 
         JButton northButton=new JButton("My Music Genre");
         JButton southButton=new JButton("Rap Music");
-        JButton westButton=new JButton("Gospel Music");
-        JButton eastButton=new JButton("Ballads Music");
+
 
 
 
         MusicLayoutFrame.add(northButton,BorderLayout.NORTH);
         MusicLayoutFrame.add(southButton,BorderLayout.SOUTH);
-        MusicLayoutFrame.add(westButton,BorderLayout.WEST);
-        MusicLayoutFrame.add(eastButton,BorderLayout.EAST);
+
 
 
         MusicLayoutFrame.setSize(750,800);
