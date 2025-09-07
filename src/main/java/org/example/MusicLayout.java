@@ -12,13 +12,13 @@ public class MusicLayout {
 
 //        JLabel northLabel=new JLabel("My Music Genre");
 
-        JButton northButton=new JButton("My Music Genre");
-        JButton southButton=new JButton("Rap Music");
+//        JButton northButton=new JButton("My Music Genre");
+//        JButton southButton=new JButton("Rap Music");
         JButton westButton=new JButton("Gospel Music");
         JButton eastButton=new JButton("Ballads Music");
 
-        MusicLayoutFrame.add(northButton,BorderLayout.NORTH);
-        MusicLayoutFrame.add(southButton,BorderLayout.SOUTH);
+//        MusicLayoutFrame.add(northButton,BorderLayout.NORTH);
+//        MusicLayoutFrame.add(southButton,BorderLayout.SOUTH);
         MusicLayoutFrame.add(westButton,BorderLayout.WEST);
         MusicLayoutFrame.add(eastButton,BorderLayout.EAST);
 
