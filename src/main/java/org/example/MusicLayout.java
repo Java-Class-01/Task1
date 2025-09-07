@@ -27,8 +27,8 @@ public class MusicLayout {
 
         MusicLayoutFrame.setSize(750,800);
 
-        if (!GraphicsEnvironment.isHeadless()) {
-            MusicLayoutFrame.setVisible(true);
-        }
+
+        MusicLayoutFrame.setVisible(true);
+
     }
 }
